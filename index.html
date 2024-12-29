@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Guido Santiago Volpato</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>    
+    <nav id="hamburger-nav">
+        <div class="logo">Guido Santiago Volpato</div>
+        <div class="hamburger-menu">
+             <div class="hamburger-icon" onclick="toogleMenu()">
+             <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a class="about-hamburger"  href="#about" onclick="toogleMenu()">About</a></li>
+            <li><a class="about-hamburger" href="#experience" onclick="toogleMenu()">Experiences</a></li>
+            <li><a class="about-hamburger" href="#projects" onclick="toogleMenu()">Projects</a></li>
+            <li><a class="about-hamburger" href="#contact" onclick="toogleMenu()">Contacts</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="profile__pic-container">
+        <img src="./assets/perfil-final.png" alt="Guido Santiago Volpato profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, Im</p>
+        <h1 class="title">Guido Santiago Volpato</h1>
+        <p class="section__text__p2">Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/cv-Volpato.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+            class="icon" onclick="location.href='https://www.linkedin.com/in/gsvolpato/'">
+            <img src="./assets/github.png" alt="My GitHub Profile"
+            class="icon" onclick="location.href='https://github.com/GSVolpato91'">
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+        <img src="./assets/about-2.png" alt="Profile Picture" class="about-pic">
+    </div>
+    <div class="about-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <img src="./assets/verified.png" alt="Experience" class="icon">
+                <h3 class="about-sub-title">Certifications</h3>
+                <p2>Japanese Language Proficiency Test N2</p2> 
+                <br>
+                <p2>Cambridge Certificate in Advanced English</p2> <br>
+                <p2>TOEIC Score 870</p2>
+            </div>
+            <div class="details-container">
+                <img src="./assets/code.png" alt="Education" class="icon">
+                <h3  class="about-sub-title">Coding Experience</h3>
+                <p2>LINE Yahoo! Tech Academy <br> Web Application Development Bootcamp</p2><br>
+                <p2>1 year experience</p2>
+            </div>
+            <div class="details-container">
+                <img src="./assets/education.png" alt="Education" class="icon">
+                <h3  class="about-sub-title">Education</h3>
+                <p2>High School Diploma<br> Natural Sciences</p2>
+                <br>
+                <p2>University of Buenos Aires <br> School of Medicine</p2>
+            </div>
+        </div>
+        <div class="text-container">
+            <p class="about-description">With over 8 years of experience in customer service, education, and operations, 
+                I have excelled in roles ranging from senior English teacher in Japan to hospitality team leader at luxury brands like Marriott. 
+                <br>Recently, I completed an intensive Java Spring Boot bootcamp, gaining hands-on experience in web application development, database design, and deploying solutions using Java, Spring Boot, MySQL, and Docker.
+                <br>Fluent in Japanese and driven by adaptability and results, I’m eager to apply my technical expertise and collaborative mindset to innovative projects.
+            </p>
+        </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+            <h2 class="experience-sub-title">Developer</h2>
+            <div class="article-container1">
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>HTML</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>CSS</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Java</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Spring Boot</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Thymeleaf</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>MYSQL</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Docker</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Software Testing</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Linux (Ubuntu)</h3>
+                    </div>
+                </article>
+            </div>
+            </div>
+            <div class="details-container">
+            <h2 class="experience-sub-title">Interpersonal Skills</h2>
+            <div class="article-container">
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Critical Thinking</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Effective Communication</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Teamwork</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Adaptability</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Problem Solving</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Organization</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Team Management</h3>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/check.png" alt="Experience" class="icon">
+                    <div>
+                        <h3>Leadership</h3>
+                    </div>
+                </article>
+            </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#projects'">
+</section>
+<section id="projects">
+<p class="section__text__p1">Browse My Recent</p>
+<h1 class="title">Projects</h1>
+<div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+        <div class="article-container">
+        <img src="./assets/report-app.png" alt="Project 1" class="project-img">
+        </div>
+    <h2 class="experience-sub-title project-title">Daily Report System</h2>
+    <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GSVolpato91/DailyReportSystemApplication'">
+            See on Github
+        </button>
+    </div>
+        </div>
+        <div class="details-container color-container">
+    <div class="article-container">
+    <img src="./assets/under-construction.jpg" alt="Under Construction... " class="project-img">
+    </div>
+<h2 class="experience-sub-title project-title">Coming Soon...</h2>
+<div class="btn-container">
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GSVolpato91/'">
+        See on Github
+    </button>
+</div>
+        </div>
+</div>
+<img src="./assets/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='./#contact'">
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email" class="icon contact-icon">
+            <p> <a href="mailto:guido.svolpato@gmail.com">Guido.svolpato@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn" class="icon contact-icon">
+            <p> <a href="https://www.linkedin.com/in/gsvolpato/">LinkedIn</a></p>
+        </div>
+    </div>
+</div>
+</section>
+<footer>
+<nav>
+    <div class="nav-links-container">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </div>
+</nav>
+<p>© 2024 Volpato Guido Santiago. All rights reserved.</p>
+</footer>
+    <script src="script.js"></script>
+    <div id="top">
+    <img src="./assets/arrow-up.png" alt="Arrow" class="icon arrow" onclick="location.href='./#'">
+    </div>
+</body>
+</html>
