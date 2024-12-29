@@ -187,15 +187,21 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    margin-bottom: 1rem;
 }
 
 .profile__pic-container {
     display: flex;
+    max-height: 50vh;
+    max-width: 50vh;
+    border: teal solid 0.5rem;
+    box-shadow: -12px 12px #FF9F1C;
 }
 
 .section__pic-container {
     display: flex;
     margin: 0;
+    padding-bottom: 300px;
 }
 
 .section__text {
