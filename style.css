@@ -17,6 +17,19 @@ html{
     scroll-behavior: smooth;
 }
 
+#google_translate_element {
+    text-align: right;
+    margin: 10px;
+}
+
+.goog-te-combo {
+    background-color: #e8f1f0;
+    color: black;
+    border-radius: 0.2rem;
+    border: #e8f1f0 0.2rem solid;
+    box-shadow: -3px 3px teal;
+}
+
 p {
     color: #184e77;
     text-align: center;
